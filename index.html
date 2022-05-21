@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <title>Praktikum PKW 6</title>
+</head>
+<body>
+    
+    <div class="formstyle">
+    <form action="#" class="container">
+        <h1>Survey Kepuasan Pelanggan</h1>
+        <label for="nama" class="question">Nama </label><br/>
+        <input class="box" type="text" name="nama" id="nama" />
+        <br/>
+        <label for="umur" class="question">Umur</label><br/>
+        <input class="box" type="text" name="umur" id="umur" />
+        <br/>
+        <label for="jeniskelamin" class="question">Jenis Kelamin</label>
+        <br />
+        <input type="radio" name="jeniskelamin" id="jeniskelamin" value="Laki-laki" /> Laki-laki
+        <input type="radio" name="jeniskelamin" id="jeniskelamin" value="Perempuan"> Perempuan
+        <br/><br/>
+        <label for="nilai" class="question">Nilai Kepuasaan (1-5)</label><br/>
+        <input class="box" type="text" name="nilai" id="nilai" />
+        <br/>
+        <label for="produk" class="question">Darimana anda mengetahui produk kami</label>
+        <br/>
+        <input type="checkbox" name="produk" id="produk" value="Social Media" /> Social Media
+        <br/>
+        <input type="checkbox" name="produk" id="produk" value="Teman" /> Teman
+        <br/>
+        <input type="checkbox" name="produk" id="produk" value="Internet" /> Internet
+        <br/><br/>
+        <label for="layanan" class="question">Apakah anda menggunakan layanan kami</label>
+        <br/>
+        <input type="radio" name="layanan" id="layanan" value="Ya" /> Ya
+        <input type="radio" name="layanan" id="layanan" value="Tidak" /> Tidak
+        <br/><br/>
+        <label for="saran" class="question">Kritik dan Saran</label>
+        <br />
+        <textarea class="box" name="saran" id="saran" cols="30" rows="3"></textarea>
+        <br />
+        <input class="submitbtn" type="button" value="Kirim" onclick="tampilData()" />
+        <br/><br/><br/><br/><br/><br/><br/>
+    </form>
+</div>
+</body>
+</html>
